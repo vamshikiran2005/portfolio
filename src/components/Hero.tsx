@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { portfolioData } from "../data";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import profilePhoto from "../assets/profile.jpg";
 
 export const Hero = () => {
@@ -39,6 +39,14 @@ export const Hero = () => {
             >
               View Projects
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a
+              href={portfolioData.contact.resume}
+              download
+              className="px-8 py-4 border border-gold text-gold rounded-full font-bold flex items-center gap-2 hover:bg-gold/10 transition-all duration-300 shadow-[0_0_15px_rgba(212,175,55,0.1)]"
+            >
+              Download Resume
+              <Download className="w-5 h-5" />
             </a>
             <a
               href="#contact"

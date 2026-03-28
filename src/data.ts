@@ -141,5 +141,6 @@ export const portfolioData = {
     location: "Karimnagar, Telangana",
     linkedin: "https://www.linkedin.com/in/kethireddy-vamshi-kiran-reddy-7545b0245/",
     github: "https://github.com/vamshikiran2005",
+    resume: "/resume.jpg",
   },
 };
