@@ -51,13 +51,13 @@ export const Projects = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className={`group relative p-8 glass rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-gold/5 transition-all duration-500 flex flex-col h-full ${
-              project.isPlaceholder ? "border-dashed border-2 border-slate-700" : ""
+              (project as any).isPlaceholder ? "border-dashed border-2 border-slate-700" : ""
             }`}
           >
             {/* Visual Header */}
             <div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-gold to-yellow-200 transition-all duration-500" />
             
-            {!project.isPlaceholder && project.gallery && (
+            {!(project as any).isPlaceholder && project.gallery && project.gallery.length > 0 && (
               <div 
                 className="relative h-48 -mx-8 -mt-8 mb-8 overflow-hidden cursor-pointer"
                 onClick={() => openGallery(project)}
@@ -81,7 +81,7 @@ export const Projects = () => {
                   <div className="p-3 bg-navy-900 rounded-xl">
                     <Code className="text-gold w-6 h-6" />
                   </div>
-                  {!project.isPlaceholder && (
+                  {!(project as any).isPlaceholder && (
                     <div className="flex gap-4">
                       {project.github && (
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -93,7 +93,7 @@ export const Projects = () => {
                   )}
                </div>
                <h3 className="text-2xl font-bold mb-2 group-hover:text-gold transition-colors">{project.title}</h3>
-               {project.subtitle && <p className="text-gold text-sm font-medium mb-2">{project.subtitle}</p>}
+               {(project as any).subtitle && <p className="text-gold text-sm font-medium mb-2">{(project as any).subtitle}</p>}
                <p className="text-slate-400 text-sm leading-relaxed mb-6">
                  {project.description}
                </p>
@@ -108,7 +108,7 @@ export const Projects = () => {
                  </ul>
                )}
 
-               {project.gallery && (
+               {project.gallery && project.gallery.length > 0 && (
                  <button 
                   onClick={() => openGallery(project)}
                   className="mt-4 flex items-center gap-2 text-gold text-sm font-bold hover:underline"
@@ -127,9 +127,9 @@ export const Projects = () => {
                 ))}
               </div>
               
-              {!project.isPlaceholder && project.highlights && (
+              {!(project as any).isPlaceholder && (project as any).highlights && (
                 <div className="pt-4 border-t border-white/5 italic text-xs text-slate-500">
-                  {project.highlights}
+                  {(project as any).highlights}
                 </div>
               )}
             </div>
@@ -227,4 +227,3 @@ export const Projects = () => {
     </section>
   );
 };
-

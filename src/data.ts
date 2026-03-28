@@ -44,32 +44,36 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Giftique E-commerce Website",
-      description: "Developed a full-stack e-commerce platform with complete shopping functionality.",
-      features: ["Product catalog", "Shopping cart", "User authentication", "Order management"],
+      title: "Pulse Health",
+      subtitle: "Innovative Healthcare Management System",
+      description: "Developed a healthcare management system to streamline patient records and appointment scheduling.",
+      features: ["Patient record tracking", "Appointment scheduling", "Doctor-Patient interaction portal"],
       tech: ["HTML", "CSS", "Java", "MySQL"],
-      highlights: "Responsive UI design and efficient backend handling",
-      github: "https://github.com/vamshikiran2005/giftique",
+      highlights: "Improved healthcare accessibility and data management efficiency",
+      github: "https://github.com/vamshikiran2005/pulsehealth",
       gallery: [
         {
-          src: "/projects/giftique/media__1774539835885.jpg",
-          description: "Stunning homepage banner featuring a Special Welcome Offer with 20% discount and free shipping for new customers."
+          src: "projects/pulsehealth/pulse1.png",
+          description: "Healthcare Dashboard: A comprehensive view of patient statistics and upcoming appointments."
         },
         {
-          src: "/projects/giftique/media__1774539835878.jpg",
-          description: "New Arrivals section showcasing our premium jewelry collection with detailed product cards and shopping actions."
-        },
+          src: "projects/pulsehealth/pulse2.png",
+          description: "Patient Records: Organized digital database for maintaining accessible healthcare history."
+        }
+      ]
+    },
+    {
+      title: "Digital Time Capsule",
+      subtitle: "Secure Memory Storage",
+      description: "A secure and encrypted platform for users to store personal memories and milestones for the future.",
+      features: ["Encrypted storage", "Future date release", "Personalized multimedia uploads"],
+      tech: ["HTML", "CSS", "JavaScript", "Firebase"],
+      highlights: "Ensured privacy and long-term data durability for digital legacy",
+      github: "https://github.com/vamshikiran2005/digitaltimecapsule",
+      gallery: [
         {
-          src: "/projects/giftique/media__1774539835999.jpg",
-          description: "Trending Products gallery including personalized teddy bears, photo frames, and customized music frames."
-        },
-        {
-          src: "/projects/giftique/media__1774539836021.jpg",
-          description: "Detailed 'About Giftique' section highlighting our commitment to premium, personalized gifts for every occasion."
-        },
-        {
-          src: "/projects/giftique/media__1774539835979.jpg",
-          description: "comprehensive footer providing easy access to customer service, company info, and secure payment methods."
+          src: "projects/digitaltimecapsule/dtc1.png",
+          description: "Time Capsule Interface: Clean and intuitive UI for creating and managing digital milestones."
         }
       ]
     },
@@ -82,33 +86,27 @@ export const portfolioData = {
       highlights: "Simplified academic workflows and improved data organization",
       gallery: [
         {
-          src: "/projects/academicflow/media__1774541058013.jpg",
-          description: "AcademiQuest Login Portal: High-fidelity entrance to the student realm with version 2.0 gamified orchestration."
+          src: "projects/academicflow/media__1774541058013.jpg",
+          description: "AcademiQuest Login Portal: High-fidelity entrance to the student realm."
         },
         {
-          src: "/projects/academicflow/media__1774541057940.jpg",
-          description: "Avatar Forge: Personalization hub where students can unlock gear and skins based on academic quests and attendance."
+          src: "projects/academicflow/media__1774541057940.jpg",
+          description: "Avatar Forge: Personalization hub where students can unlock gear and skins."
         },
         {
-          src: "/projects/academicflow/media__1774541057905.jpg",
-          description: "Enlistment Hub: Detailed enrollment form for students to join departments and track their academic journey."
+          src: "projects/academicflow/media__1774541057905.jpg",
+          description: "Enlistment Hub: Detailed enrollment form for students to join departments."
         },
         {
-          src: "/projects/academicflow/media__1774541057878.jpg",
-          description: "System Architecture: Clean, professional MVC implementation of the folder structure and student portal backend."
+          src: "projects/academicflow/media__1774541057878.jpg",
+          description: "System Architecture: Clean, professional MVC implementation of the folder structure."
         },
         {
-          src: "/projects/academicflow/media__1774541057900.jpg",
-          description: "Code Implementation: Organized HTML5/CSS3 source code for the login infrastructure and responsive frontend."
+          src: "projects/academicflow/media__1774541057900.jpg",
+          description: "Code Implementation: Organized HTML5/CSS3 source code for the infrastructure."
         }
       ]
-    },
-    {
-      title: "Coming Soon",
-      description: "New exciting AI/ML projects are in the works. Stay tuned!",
-      tech: ["AI", "ML", "Python"],
-      isPlaceholder: true,
-    },
+    }
   ],
   internship: {
     title: "Android Developer Virtual Internship",
@@ -132,7 +130,7 @@ export const portfolioData = {
       title: "Android Developer Virtual Internship",
       organization: "EduSkills | Google for Developers",
       date: "January - March 2025",
-      link: "/certificates/android_internship_cert.jpg",
+      link: "certificates/android_internship_cert.jpg",
     },
   ],
   contact: {
@@ -141,6 +139,6 @@ export const portfolioData = {
     location: "Karimnagar, Telangana",
     linkedin: "https://www.linkedin.com/in/kethireddy-vamshi-kiran-reddy-7545b0245/",
     github: "https://github.com/vamshikiran2005",
-    resume: "/resume.jpg",
+    resume: "resume.jpg",
   },
 };
