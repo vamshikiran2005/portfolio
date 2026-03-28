@@ -44,36 +44,33 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Pulse Health",
-      subtitle: "Innovative Healthcare Management System",
-      description: "Developed a healthcare management system to streamline patient records and appointment scheduling.",
-      features: ["Patient record tracking", "Appointment scheduling", "Doctor-Patient interaction portal"],
-      tech: ["HTML", "CSS", "Java", "MySQL"],
-      highlights: "Improved healthcare accessibility and data management efficiency",
-      github: "https://github.com/vamshikiran2005/pulsehealth",
+      title: "Giftique",
+      subtitle: "Personalized E-Commerce Gifting Platform",
+      description: "A full-stack e-commerce solution specialized in curated gift collections and personalized shopping experiences.",
+      features: ["Curated gift collections", "User-friendly checkout", "Order tracking system"],
+      tech: ["React", "Node.js", "Express", "MongoDB"],
+      highlights: "Streamlined the gifting process with intuitive UI and secure payment integration",
+      github: "https://github.com/vamshikiran2005/giftique",
       gallery: [
         {
-          src: "projects/pulsehealth/pulse1.png",
-          description: "Healthcare Dashboard: A comprehensive view of patient statistics and upcoming appointments."
+          src: "projects/giftique/media__1774539835878.jpg",
+          description: "Giftique Home: Browsing curated collections of special gifts."
         },
         {
-          src: "projects/pulsehealth/pulse2.png",
-          description: "Patient Records: Organized digital database for maintaining accessible healthcare history."
-        }
-      ]
-    },
-    {
-      title: "Digital Time Capsule",
-      subtitle: "Secure Memory Storage",
-      description: "A secure and encrypted platform for users to store personal memories and milestones for the future.",
-      features: ["Encrypted storage", "Future date release", "Personalized multimedia uploads"],
-      tech: ["HTML", "CSS", "JavaScript", "Firebase"],
-      highlights: "Ensured privacy and long-term data durability for digital legacy",
-      github: "https://github.com/vamshikiran2005/digitaltimecapsule",
-      gallery: [
+          src: "projects/giftique/media__1774539835885.jpg",
+          description: "Product Catalog: Detailed view of personalized gift items."
+        },
         {
-          src: "projects/digitaltimecapsule/dtc1.png",
-          description: "Time Capsule Interface: Clean and intuitive UI for creating and managing digital milestones."
+          src: "projects/giftique/media__1774539835979.jpg",
+          description: "Shopping Cart: Easy management of selected gift items."
+        },
+        {
+          src: "projects/giftique/media__1774539835999.jpg",
+          description: "User Profile: Personalized dashboard for tracking orders and favorites."
+        },
+        {
+          src: "projects/giftique/media__1774539836021.jpg",
+          description: "Checkout Flow: Secure and seamless payment process."
         }
       ]
     },
