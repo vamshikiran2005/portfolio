@@ -59,6 +59,21 @@ export const portfolioData = {
       ]
     },
     {
+      title: "Nexus Portal",
+      subtitle: "Secure & Interactive User Portal",
+      description: "A premium, glassmorphic login and registration portal featuring real-time form validation, active password strength auditing, dual light/dark themes, and smooth transition animations.",
+      features: ["Interactive tab switching animations", "Real-time client-side form validation", "Visual password strength feedback", "Light/Dark theme toggle control"],
+      tech: ["HTML", "CSS", "JavaScript", "Google Fonts"],
+      highlights: "Designed an interactive, premium authentication interface focusing on responsive web layout and advanced UX micro-animations",
+      github: "https://github.com/vamshikiran2005/nexus-portal",
+      gallery: [
+        {
+          src: "projects/nexus/portal.png",
+          description: "Nexus Portal Sign In: Glassmorphism login panel with clean, structured user fields and dark mesh background."
+        }
+      ]
+    },
+    {
       title: "Giftique",
       subtitle: "Personalized E-Commerce Gifting Platform",
       description: "A full-stack e-commerce solution specialized in curated gift collections and personalized shopping experiences.",
