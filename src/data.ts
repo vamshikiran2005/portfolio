@@ -44,6 +44,21 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "ResumeForge",
+      subtitle: "AI-Powered Resume Builder & Analyzer",
+      description: "An interactive, ATS-optimized resume building application featuring real-time feedback, ATS scoring, and AI-powered recommendations.",
+      features: ["ATS-friendly resume templates", "Real-time resume scoring", "AI content suggestions & tailoring", "Clean PDF exports"],
+      tech: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Gemini API"],
+      highlights: "Empowered job seekers to create professional, ATS-compatible resumes with intelligent optimization suggestions",
+      github: "https://github.com/vamshikiran2005/resume-forge",
+      gallery: [
+        {
+          src: "projects/resumeforge/dashboard.png",
+          description: "ResumeForge Dashboard: Real-time ATS scoring, styling preferences, and AI editing tools."
+        }
+      ]
+    },
+    {
       title: "Giftique",
       subtitle: "Personalized E-Commerce Gifting Platform",
       description: "A full-stack e-commerce solution specialized in curated gift collections and personalized shopping experiences.",
